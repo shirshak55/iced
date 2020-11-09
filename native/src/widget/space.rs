@@ -8,7 +8,7 @@ use crate::{
 /// An amount of empty space.
 ///
 /// It can be useful if you want to fill some space with nothing.
-#[derive(Debug)]
+#[derive(Debug,Clone)]
 pub struct Space {
     width: Length,
     height: Length,
